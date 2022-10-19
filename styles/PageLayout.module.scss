@@ -1,0 +1,45 @@
+.container {
+  justify-content: space-between;
+  color: #fafafa;
+  padding: 1.5rem 0;
+}
+
+.logo{
+  font-size: 2.5rem;
+  padding-bottom: .6rem;
+}
+
+.medialogos{
+  gap: 1rem;
+  align-self: end;
+}
+
+.copyright{
+  gap: .2rem;
+}
+
+.footer{
+  gap: 3rem;
+  padding: 5rem 0;
+}
+
+// .footerlogo{
+//   margin-top: -1.3rem
+// }
+
+.right{
+  align-items: flex-end;
+  border: 2px solid white;
+  // justify-content: center;
+}
+.left{
+  align-items: flex-start;
+  border: 2px solid white;
+  gap: 1.5rem;
+  // justify-content: center;
+}
+
+.description{
+  font-size: 1.1rem;
+  max-width: 38rem;
+}

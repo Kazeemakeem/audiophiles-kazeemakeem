@@ -1,0 +1,24 @@
+.hero{
+  background: #191919;
+  position: relative;
+}
+
+.hero_text{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  max-width: 30rem;
+  gap: 1rem;
+}
+
+.hero_header{
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.hero_content{
+  margin-bottom: 2rem;
+}
